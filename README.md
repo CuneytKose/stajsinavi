@@ -47,3 +47,4 @@ Düzenle
 0 2 * * * /bin/bash /opt/bash/integritycheck.sh
 Yukarıdaki cron satırı scripti her gece 02:00'de çalıştırır.
 
+Ek olarak, scriptler terminale çıktı vermez, tüm verileri dosyalara yazar. Bu sayede cron ile sorunsuz şekilde çalıştırılabilir.
