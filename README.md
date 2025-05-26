@@ -5,18 +5,10 @@ Bu repoda iki farklı güvenlik odaklı betik yer almaktadır. Her biri kendi kl
 ➤ Amaç:
 ips.txt dosyasındaki IP adreslerini VirusTotal Public API üzerinden kontrol eder. IP adresi "malicious" veya "suspicious" olarak işaretlenmişse malicious_ips.txt dosyasına yazılır. Yanıt bulunamazsa not_found_ips.txt dosyasına yazılır. Tüm sonuçlar responses/ klasörüne .json olarak kaydedilir.
 
-🔧 Kurulum:
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
 🔐 API Anahtarı:
 .env dosyasına aşağıdaki formatta kaydedilmelidir:
-
-ini
-Kopyala
-Düzenle
 VT_API_KEY=your_virustotal_api_key_here
+
 📁 Girdi:
 ips.txt → Her satırda bir IP olacak şekilde liste.
 
